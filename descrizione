@@ -1,0 +1,113 @@
+TITOLO 
+“HorseBooking”                                                                                                                                                                                 
+Nome del gruppo
+“RicMart Productions”
+
+Componenti gruppo
+Borghi Martina, Del Gaudio Riccardo
+
+link per la repository Git Hub del progetto:
+https://github.com/delgaucho07/progetto-informatica.git
+
+
+Descrizione progetto
+Il progetto consiste nello sviluppo di un sito web per la gestione delle prenotazioni di lezioni di equitazione e passeggiate a cavallo.
+L’obbiettivo è digitalizzare un sistema che normalmente viene gestito manualmente evitando gli errori e migliorando l’organizzazione.
+
+
+Il sistema permette agli utenti di :
+prenotare una lezione/passeggiata (tramite un form di richiesta)
+si potrà scegliere il giorno e l’orario in cui si vorrà effettuare una lezione o passeggiata
+si potrà selezionare il cavallo a tua scelta tra i disponibili 
+gestire le proprie prenotazioni tramite un account(con credenziali del tipo nominativi , data di nascita e se si possiede una patente di equitazione)
+
+Architetture del sistema:
+il progetto è diviso in 3 componenti principali
+Frontend ( HTML, CSS, JS )
+Backend (C# ASP.NETMVC )
+DB(MYSQL)
+Pattern utilizzato (MVC):
+Model → rappresenta i dati ( database ) 
+View → sarà la pagina HTML
+Controller → logica applicativa (richieste HTTP)
+
+
+ Gestione dei dati:
+Tabelle principali:
+ Cavalli
+ID
+nome
+livello (principiante, intermedio, esperto)
+disponibilità
+Prenotazione
+Id cliente
+id
+data
+orario
+cavallo scelto
+tipo attività (lezione o passeggiata)
+Utenti
+id
+username
+password
+ruolo(utente/admin)
+View (Interfaccia grafica)
+Schermata iniziale
+pulsante per effettuare una prenotazione
+descrizione del maneggio
+immagine dei cavalli
+Form di prenotazione
+campo per inserire il nome utente
+selezione della data disponibile
+selezione dell’orario disponibile
+scelta del cavallo (menu a tendina)
+scelta del tipo di attività (radio button)
+pulsante “Prenota”
+Schermata di conferma
+riepilogo dei dati inseriti
+messaggio di conferma o errore
+Calendario 
+useremo JavaScript per:
+selezionare la data
+evidenziare in rosso i giorni pieni
+evidenziare in rosso gli orari pieni
+
+
+Funzionamento del sistema(parte Backend con C#)
+Login
+verificare username e password
+salvare dati utenti
+Prenotazioni
+ricevere dati dal form
+controllare la disponibilità dei cavalli
+salvare nel database(username,password)
+controlli da fare
+verificare che il cavallo non sia stato prenotato nello stesso orario
+se i dati sono validi
+Sistema Login:
+utente inserisce username/password
+il sistema controlla il database(se corretto → accesso)
+Ruoli Utente:
+prenota le lezioni tramite form
+vede le proprie prenotazioni
+cancellare le prenotazioni
+Ruolo Admin:
+aggiungere cavalli
+modificare dati
+eliminare
+vedere tutte le prenotazioni
+Flusso del sistema:
+L’utente accede al sito
+Effettua login
+Va alla prenotazione
+Seleziona:
+data
+orario
+cavallo
+invia il form
+Il backend:
+controlla disponibilità
+salva nel database
+Mostra conferma
+
+  
