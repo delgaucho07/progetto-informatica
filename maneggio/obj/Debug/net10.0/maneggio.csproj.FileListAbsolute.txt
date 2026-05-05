@@ -1,0 +1,8 @@
+C:\Users\riccardo\OneDrive\Desktop\progetto-informatica-main\maneggio\obj\Debug\net10.0\maneggio.csproj.AssemblyReference.cache
+C:\Users\riccardo\OneDrive\Desktop\progetto-informatica-main\maneggio\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\riccardo\OneDrive\Desktop\progetto-informatica-main\maneggio\obj\Debug\net10.0\maneggio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\riccardo\OneDrive\Desktop\progetto-informatica-main\maneggio\obj\Debug\net10.0\maneggio.AssemblyInfoInputs.cache
+C:\Users\riccardo\OneDrive\Desktop\progetto-informatica-main\maneggio\obj\Debug\net10.0\maneggio.AssemblyInfo.cs
+C:\Users\riccardo\OneDrive\Desktop\progetto-informatica-main\maneggio\obj\Debug\net10.0\maneggio.csproj.CoreCompileInputs.cache
+C:\Users\riccardo\OneDrive\Desktop\progetto-informatica-main\maneggio\obj\Debug\net10.0\maneggio.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\riccardo\OneDrive\Desktop\progetto-informatica-main\maneggio\obj\Debug\net10.0\maneggio.MvcApplicationPartsAssemblyInfo.cache
