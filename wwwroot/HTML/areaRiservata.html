@@ -1,0 +1,23 @@
+<h1>Area Riservata</h1>
+<p id="benvenuto"></p>
+
+<a href="prenotazione.html">Vai alle prenotazioni</a>
+<button onclick="logout()">Logout</button>
+
+<script>
+const utenteId = localStorage.getItem("utenteId");
+
+if (!utenteId) {
+    alert("Devi fare il login!");
+    window.location.href = "login.html";
+}
+
+// Mostra nome
+document.getElementById("benvenuto").innerText =
+    "Benvenuto " + localStorage.getItem("nomeUtente");
+
+function logout() {
+    localStorage.clear();
+    window.location.href = "login.html";
+}
+</script>

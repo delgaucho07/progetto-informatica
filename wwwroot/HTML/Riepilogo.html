@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Riepilogo</title>
+</head>
+<body>
+
+    <h1>Riepilogo Prenotazione</h1>
+
+    <div id="riepilogo"></div>
+
+    <script>
+let params = new URLSearchParams(window.location.search);
+
+document.getElementById("riepilogo").innerHTML =
+    "Nome: " + params.get("nome") + "<br>" +
+    "Data: " + params.get("data") + "<br>" +
+    "Orario: " + params.get("orario") + "<br>" +
+    "Cavallo: " + params.get("cavallo");
+    </script>
+
+</body>
+</html>
